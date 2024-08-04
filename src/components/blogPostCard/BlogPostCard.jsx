@@ -48,7 +48,7 @@ function BlogPostCard() {
                             borderBottom: mode === 'dark' ? '4px solid rgb(226, 232, 240)' : '4px solid rgb(30, 41, 59)',
                             boxShadow: 'rgba(0, 0, 0, 0.16) 0px 1px 4px'
                           }}
-                          className={`p-2 w-full h-[360px] shadow-lg hover:-translate-y-1 cursor-pointer hover:shadow-gray-400 animate-none hover:border-2 border-red-600 duration-150 ${
+                          className={`p-2 w-full h-[360px] shadow-lg hover:-translate-y-1 cursor-pointer hover:shadow-gray-400 animate-none hover:border-2 border-gray-400 duration-150 ${
                             mode === 'dark' ? 'shadow-gray-700' : 'shadow-xl'
                           } rounded-xl overflow-hidden `}
                         >
