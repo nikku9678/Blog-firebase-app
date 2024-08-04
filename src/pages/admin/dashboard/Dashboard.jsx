@@ -27,7 +27,7 @@ function Dashboard() {
                     <div className="left">
                         <img
                             className="w-40 h-40 object-cover rounded-full border-2 border-pink-600 p-1"
-                            src={'https://cdn-icons-png.flaticon.com/128/3135/3135715.png'}
+                            src={'nk.jpg'}
                             alt="profile"
                         />
                     </div>

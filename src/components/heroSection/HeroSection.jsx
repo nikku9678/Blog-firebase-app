@@ -25,11 +25,17 @@ function HeroSection() {
                         </div>
 
                         {/* Paragraph  */}
-                        <p
-                            style={{ color: mode === 'dark' ? 'white' : 'white' }}
-                            className="sm:text-3xl text-xl font-extralight sm:mx-auto ">
-                            Here are some blogs and tutorials contributed by QuillQuest.
-                        </p>
+                        <div class=" text-white relative container mx-auto px-6 py-5 text-center">
+      <h1 class="text-5xl font-bold leading-tight mb-4">
+        Welcome to Our Blog
+      </h1>
+      <p class="text-xl mb-8">
+        Discover the latest articles, tips, and insights from our experts.
+      </p>
+      <a href="#latest-posts" class="inline-block hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full">
+        Read Our Latest Posts
+      </a>
+    </div>
                     </div>
 
                 </main>
